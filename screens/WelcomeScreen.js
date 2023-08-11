@@ -13,7 +13,7 @@ export const WelcomeScreen = ({ navigation }) => (
     </View>
     <Pressable
       style={styles.button}
-      onPress={() => navigation.navigate("newsletter-form")}>
+      onPress={() => navigation.navigate("Subscription")}>
       <Text style={styles.buttonText}>Newsletter</Text>
     </Pressable>
   </View>
